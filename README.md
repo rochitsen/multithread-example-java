@@ -5,7 +5,7 @@ Java program using threads
 
 This is the entry point for the program. Gets the user input for number of random number generation threads. The main class also starts three threads.
 
-1.	First thread is started for run ‘n’ number of times (n is user input). This generates random numbers.
+1.	First thread is started to run ‘n’ number of times (n is user input). This generates random numbers.
 2.	Second thread is a monitor thread which checks if the Stack (where random values are stored) is empty or not.
 3.	Third thread is to calculate the max, min, frequency and average of values that are in the stack.
 
